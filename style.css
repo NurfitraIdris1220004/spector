@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white;
+    background-image: url('assets/images/trr.jpg');
+    background-size: cover; /* Untuk mengisi seluruh area background */
+    background-position: center; /* Posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    /* border-bottom: 10px solid #040303; */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin-left: 100px;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color:transparent;
+    text-align: left;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 1rem;
+    }
+}
+img{
+    width: 350px;
+    border-radius: 200px;
+    margin-left: 10%;
+    /* border-top:2px solid #040303; */
+    /* border-bottom:2px solid #040303; */
+    /* border-right:2px solid #040303;
+    border-left:2px solid #040303; */
+    box-shadow: 20px 20px 50px rgba(252, 252, 249, 0.3);
+    
+}
+h2{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 18%;
+    /* border-bottom: 10px solid #040303; */
+    font-weight: 100px;
+    color: rgb(246, 243, 243);
+    
+}
+h1{
+    text-align: left;
+}
+nav ul li a:hover{
+color: greenyellow;
+border-bottom: 2px solid #04f218;
+}
+.about{
+    width: 50%;
+    float: right;
+    margin-top: -30%;
+    /* border-top: 2px solid #040303;
+    border-right: 2px solid #040303;
+    border-left: 2px solid #040303; */
+    border-bottom: 1px solid #040303;
+}
+.port{
+    margin-left: 1%;
+    /* margin-top: -5%; */
+    border-top: 2px solid #040303;
+    border-bottom: 2px solid #040303;
+    border-right: 2px solid #040303;
+    border-left: 2px solid #040303;
+    width: 50%;
+  
+}
+.cont{
+    float: left;
+    /* margin-top: -5%; */
+    /* border-top: 2px solid #040303;
+    border-bottom: 2px solid #040303;
+    border-right: 2px solid #040303;
+    border-left: 2px solid #040303; */
+    width: 30%;
+    margin-left: 1%;
+   margin-top: -5%;
+   border-bottom: 2px solid #040303;
+   color: rgb(81, 81, 246);
+}
+div{
+    float:right ;
+    font-size: 10px;
+    color: white;
+}
+h3{
+    color: rgb(81, 81, 246);
+}
+.g{
+    background-color: transparent;
+}
+.wa{
+    width: 30px;
+    height: 30px;
+}h3{
+    color: #040303;
+}
+p{
+    color: #fff;
+}

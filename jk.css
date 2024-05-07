@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(assets/images/o.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* box-shadow: 20px 20px 50px rgba(232, 238, 226, 0.3); */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fcf9f9;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(248, 248, 248, 0.1);
+    border-top:5px solid #040405;
+    border-bottom:5px solid #070707;
+    /* border-right:5px solid #040303;
+    border-left:5px solid #040303;  */
+
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+    font-size: 14px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+img{
+    width: 350px;
+    border-radius: 200px;
+    margin-left: 20%;
+    border-top:5px solid #040303;
+    border-bottom:5px solid #040303;
+    /* border-right:5px solid #040303;
+    border-left:5px solid #040303;  */
+}
